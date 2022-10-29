@@ -1,6 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 import { SearchBar } from '../search-bar/SearchBar';
+import { COULEUR_APP } from '../../constante/couleur/couleur-app/CouleurApp';
 
 
 export const HeaderHome = () =>{
@@ -14,8 +15,8 @@ export const HeaderHome = () =>{
 
 const styles= StyleSheet.create({
     container:{
-        backgroundColor: "#45B39D",
+        backgroundColor: COULEUR_APP,
        
-        height:80
+        height:80,
     }
 });

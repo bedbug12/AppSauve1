@@ -1,10 +1,13 @@
 import React from "react"
-import { View , Text} from "react-native"
+import { View, Text, Image } from 'react-native';
+import { CreateShopButton } from '../../component/button/create-shop-button/CreateShopButton';
 
 export const Shop = () =>{
     return (
-        <View>
-            <Text>Shop</Text>
+        <View style={{alignItems:"center",alignContent:"center",justifyContent:"center",flex:1}}>
+             <CreateShopButton>
+                Créer un magasin
+             </CreateShopButton>
         </View>
     )
 }

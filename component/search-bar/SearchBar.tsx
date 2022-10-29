@@ -1,12 +1,13 @@
 import React from "react";
 import { View,TextInput, StyleSheet } from 'react-native';
 import { Feather } from '@expo/vector-icons';
+import { COULEUR_APP } from "../../constante/couleur/couleur-app/CouleurApp";
 
 export const SearchBar =()=>{
     return( 
         <View  style={styles.container}>
             <View style={{justifyContent:"center"}}>
-                <Feather name="search" size={20} color="#45B39D"/>
+                <Feather name="search" size={20} color={COULEUR_APP}/>
             </View>
             <View style={styles.input}> 
                 <TextInput 

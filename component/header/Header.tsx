@@ -5,6 +5,7 @@ import { FilterButton } from "../button/filter-button/FilterButton";
 import { LocationButton } from "../button/location-button/LocationButton";
 import { SearchBar } from '../search-bar/SearchBar';
 import { FilterCard } from '../button/filter-card/FilterCard';
+import { COULEUR_APP } from "../../constante/couleur/couleur-app/CouleurApp";
 
 export const Header = () =>{
     return (
@@ -19,8 +20,8 @@ export const Header = () =>{
 
 const styles= StyleSheet.create({
     container:{
-        backgroundColor: "#45B39D",
-       
+        backgroundColor: COULEUR_APP,
+        borderColor:COULEUR_APP,
         height:130
     }
 });
